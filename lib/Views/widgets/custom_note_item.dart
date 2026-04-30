@@ -24,13 +24,13 @@ class CustomNoteItem extends StatelessWidget {
                 "Flutter Tips",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 30,
+                  fontSize: 25,
                   color: const Color.fromARGB(255, 0, 0, 0),
                 ),
               ),
               subtitle: Text(
                 "Build ur first app with flutter",
-                style: TextStyle(fontSize: 20, color: const Color.fromARGB(255, 88, 88, 88)),
+                style: TextStyle(fontSize: 18, color: const Color.fromARGB(255, 88, 88, 88)),
               ),
               trailing: IconButton(
                 icon: const Icon(Icons.delete, color: Colors.black),
