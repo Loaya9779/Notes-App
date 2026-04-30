@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app/Views/Screens/notes_app_body_screen.dart';
 import 'package:notes_app/Views/widgets/custom_text_field.dart';
-
 
 class ModalButtomSheet extends StatelessWidget {
   const ModalButtomSheet({super.key});
@@ -11,17 +11,11 @@ class ModalButtomSheet extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       child: Column(
         children: [
-          CustomTextField(
-            hint: 'Title',
-            maxLines: 1,
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          CustomTextField(
-            hint: 'Content',
-            maxLines: 5,
-          ),
+          CustomTextField(hint: 'Title', maxLines: 1),
+          SizedBox(height: 20),
+          CustomTextField(hint: 'Content', maxLines: 5),
+          SizedBox(height: 25),
+          CustomAddButton(),
         ],
       ),
     );
