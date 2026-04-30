@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:notes_app/Views/widgets/custom_appbar.dart';
 import 'package:notes_app/Views/widgets/custom_modal_buttom_sheet.dart';
 import 'package:notes_app/Views/widgets/custom_notes_listview.dart';
-import 'package:notes_app/Views/widgets/custom_search_icon.dart';
 
 class NotesViewBody extends StatelessWidget {
   const NotesViewBody({super.key});
